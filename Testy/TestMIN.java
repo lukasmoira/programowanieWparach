@@ -11,9 +11,11 @@ public class TestMIN {
         int a = 1;
         int b = 5;
 
-        int WynikZMain = Main.min(a,b);
+        int WynikZMain = Main.min(a,b); // tak samo jak wcześniej tu jest błąd do czasu
 
         Assertions.assertEquals(a,WynikZMain);
+
+        //tu a powinno być wynikiem prawidłowym bo jest mniejsze
 
     }
 }

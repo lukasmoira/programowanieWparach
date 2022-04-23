@@ -9,4 +9,12 @@ public class Main {
         }
         return a;
     }
+    public static int min(int a, int b) {
+        if(a<b){
+            return a;
+        } else if(a>b){
+            return b;
+        }
+        return a;
+    }
 }
