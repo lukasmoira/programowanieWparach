@@ -15,4 +15,14 @@ public class Main {
         }
         return b;
     }
+
+    public static boolean isPositive(int a){
+        if(a>=0){
+            return true;
+        }else if(a<0){
+            return false;
+        }
+        return false;
+    }
+
 }
