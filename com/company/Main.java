@@ -12,9 +12,7 @@ public class Main {
     public static int min(int a, int b) {
         if(a<b){
             return a;
-        } else if(a>b){
-            return b;
         }
-        return a;
+        return b;
     }
 }
